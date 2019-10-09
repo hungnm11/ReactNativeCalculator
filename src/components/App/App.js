@@ -27,6 +27,7 @@ import {
 import Calculator from '../Calculator';
 
 const App: () => React$Node = () => {
+  console.log('React$Node ====>')
   return (
     <>
       <StatusBar barStyle="dark-content" />
