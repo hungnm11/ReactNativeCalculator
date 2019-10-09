@@ -6,16 +6,19 @@ import {
 } from 'react-native';
 
 class CalculatorKey extends Component {
-
 	render() {
-		
+		const { children, style, textStyle } = this.props;
+		console.log(this.props)
 		return (
 			<TouchableHighlight
 				accessibilityRole="button"
 				// onPress={}
-				// style={[calculatorKeyStyles.root]}
+				style={[calculatorKeyStyles.root, style]}
+				underlayColor='rgba(0,0,0,0.25)'
 			>
-				<Text>Keys</Text>
+				<Text 
+					children={children}
+					style={[calculatorKeyStyles.text, textStyle]} />
 			</TouchableHighlight>
 		);
 	}

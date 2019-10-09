@@ -16,14 +16,28 @@ class Calculator extends Component {
 	}
 	render() {
 		const { displayValue } = this.state;
-		
+
 		return (
 			<View style={calculatorStyles.root}>
 				<CalculatorDisplay value={displayValue} />
 				<View style={calculatorStyles.keypad} >
 					<View style={calculatorStyles.inputKeys} >
 						<View style={calculatorStyles.digitKeys}>
-							<DigitKey />
+							<DigitKey
+								style={calculatorStyles.key0}
+								textStyle={{ textAlign: 'left' }}>0</DigitKey>
+							<DigitKey
+								style={calculatorStyles.keyDot}
+								textStyle={calculatorStyles.keyDotText}>.</DigitKey>
+							<DigitKey>1</DigitKey>
+							<DigitKey>2</DigitKey>
+							<DigitKey>3</DigitKey>
+							<DigitKey>4</DigitKey>
+							<DigitKey>5</DigitKey>
+							<DigitKey>6</DigitKey>
+							<DigitKey>7</DigitKey>
+							<DigitKey>8</DigitKey>
+							<DigitKey>9</DigitKey>
 						</View>
 					</View>
 				</View>
@@ -54,6 +68,17 @@ const calculatorStyles = StyleSheet.create({
 	digitKeyText: {
 		fontSize: 32
 	},
+	key0: {
+		paddingLeft: 32,
+		width: 160
+	},
+	keyDot: {
+		overflow: 'hidden'
+	},
+	keyDotText: {
+		fontSize: 60,
+		marginTop: -10
+	}
 });
 
 
