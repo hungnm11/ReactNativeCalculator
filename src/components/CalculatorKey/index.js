@@ -37,6 +37,7 @@ const calculatorKeyStyles = StyleSheet.create({
 		// outline: 'none'
 	},
 	text: {
+		width: '100%',
 		lineHeight: 80,
 		textAlign: 'center'
 	}

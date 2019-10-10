@@ -33,14 +33,15 @@ const calculatorDisplayStyles = StyleSheet.create({
 	root: {
 		backgroundColor: '#1c191c',
 		flex: 1,
-		justifyContent: 'center'
+		justifyContent: 'center',
+		height: 80
 	},
 	text: {
 		alignSelf: 'flex-end',
 		color: 'white',
-		//lineHeight: 130,
+		// lineHeight: 130,
 		fontSize: 66,
-		paddingHorizontal: 30,
+		// paddingHorizontal: 20,
 		//position: 'absolute',
 		right: 0,
 		// transformOrigin: 'right'
