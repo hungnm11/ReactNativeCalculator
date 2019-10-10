@@ -11,6 +11,7 @@ const FunctionKey = (props) => (
 
 const calculatorStyles = StyleSheet.create({
     functionKeys: {
+        flex: 1,
         // backgroundImage: 'linear-gradient(to bottom, rgba(202,202,204,1) 0%, rgba(196,194,204,1) 100%)',
         flexDirection: 'row',
     },

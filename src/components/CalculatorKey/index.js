@@ -26,7 +26,7 @@ class CalculatorKey extends Component {
 
 const calculatorKeyStyles = StyleSheet.create({
 	root: {
-		width: 80,
+		width: '33.33333%',
 		height: 80,
 		borderTopWidth: 1,
 		borderTopColor: '#777',
@@ -34,7 +34,8 @@ const calculatorKeyStyles = StyleSheet.create({
 		borderRightWidth: 1,
 		borderRightColor: '#666',
 		// borderTopStyle: 'solid',
-		// outline: 'none'
+		// outline: 'none',
+		flexWrap: 'nowrap'
 	},
 	text: {
 		width: '100%',

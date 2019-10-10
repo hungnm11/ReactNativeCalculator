@@ -125,8 +125,9 @@ const calculatorStyles = StyleSheet.create({
 	},
 	functionKeys: {
 		// backgroundImage: 'linear-gradient(to bottom, rgba(202,202,204,1) 0%, rgba(196,194,204,1) 100%)',
+		flex: 0,
 		backgroundColor: '#e0e0e7',
-		flexDirection: 'column'
+		flexDirection: 'row',
 	},
 	operatorKeys: {
 		// backgroundImage: 'linear-gradient(to bottom, rgba(252,156,23,1) 0%, rgba(247,126,27,1) 100%)',
