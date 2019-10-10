@@ -69,7 +69,7 @@ class Calculator extends Component {
 							</View>
 						</View>
 						<View style={calculatorStyles.operatorKeys}>
-							<OperatorKey>÷</OperatorKey>
+							<OperatorKey >÷</OperatorKey>
 							<OperatorKey>x</OperatorKey>
 							<OperatorKey>-</OperatorKey>
 							<OperatorKey>+</OperatorKey>
@@ -114,7 +114,7 @@ const calculatorStyles = StyleSheet.create({
 	},
 	key0: {
 		paddingLeft: 32,
-		width: 160
+		width: '66.66666%'
 	},
 	keyDot: {
 		overflow: 'hidden'
@@ -132,7 +132,7 @@ const calculatorStyles = StyleSheet.create({
 	operatorKeys: {
 		// backgroundImage: 'linear-gradient(to bottom, rgba(252,156,23,1) 0%, rgba(247,126,27,1) 100%)',
 		backgroundColor: '#FB9219',
-		flexDirection: 'row',
+		flexDirection: 'column',
 		width: '25%'
 	},
 });

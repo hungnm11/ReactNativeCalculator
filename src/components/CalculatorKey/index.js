@@ -35,7 +35,7 @@ const calculatorKeyStyles = StyleSheet.create({
 		borderRightColor: '#666',
 		// borderTopStyle: 'solid',
 		// outline: 'none',
-		flexWrap: 'nowrap'
+		// flexWrap: 'nowrap'
 	},
 	text: {
 		width: '100%',

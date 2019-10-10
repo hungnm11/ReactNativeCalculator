@@ -14,9 +14,11 @@ const calculatorStyles = StyleSheet.create({
         // backgroundImage: 'linear-gradient(to bottom, rgba(252,156,23,1) 0%, rgba(247,126,27,1) 100%)'
     },
     operatorKey: {
+        width: '100%',
         borderRightWidth: 0
     },
     operatorKeyText: {
+        width: '100%',
         color: 'white',
         fontSize: 36
     },
