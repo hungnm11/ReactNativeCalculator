@@ -152,7 +152,7 @@ class Calculator extends Component {
 						</View>
 						<View style={calculatorStyles.operatorKeys}>
 							<OperatorKey onPress={() => this.performOperation('/')}>÷</OperatorKey>
-							<OperatorKey onPress={() => this.performOperation('*')}>x</OperatorKey>
+							<OperatorKey onPress={() => this.performOperation('*')}>×</OperatorKey>
 							<OperatorKey onPress={() => this.performOperation('-')}>-</OperatorKey>
 							<OperatorKey onPress={() => this.performOperation('+')}>+</OperatorKey>
 							<OperatorKey onPress={() => this.performOperation('=')}>=</OperatorKey>
