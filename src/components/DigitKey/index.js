@@ -5,7 +5,8 @@ import CalculatorKey from '../CalculatorKey';
 const DigitKey = (props) => (
 	<CalculatorKey
 		{...props}
-		style={[calculatorStyles.digitKeys, props.style]} />
+		style={[calculatorStyles.digitKeys, props.style]}
+		textStyle={[calculatorStyles.digitKeyText, props.textStyle]} />
 );
 
 const calculatorStyles = StyleSheet.create({
@@ -14,6 +15,9 @@ const calculatorStyles = StyleSheet.create({
 		flexDirection: 'row',
 		flexWrap: 'wrap-reverse'
 	},
+	digitKeyText: {
+		fontSize: 32                                 
+	  },
 });
 
 export default DigitKey;

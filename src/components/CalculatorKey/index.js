@@ -7,12 +7,12 @@ import {
 
 class CalculatorKey extends Component {
 	render() {
-		const { children, style, textStyle } = this.props;
-		console.log(this.props)
+		const { children, style, textStyle, onPress } = this.props;
+
 		return (
 			<TouchableHighlight
 				accessibilityRole="button"
-				// onPress={}
+				onPress={onPress}
 				style={[calculatorKeyStyles.root, style]}
 				underlayColor='rgba(0,0,0,0.25)'
 			>
